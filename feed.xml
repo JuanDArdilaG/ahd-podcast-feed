@@ -1,14 +1,15 @@
 <rss version="2.0">
   <channel>
     <title>Aquí Hay Dragones</title>
+    <link>https://your-website.com</link> <!-- Replace with a valid URL (your site or hosting platform) -->
     <description>my files</description>
+    <atom:link href="https://juandardilag.github.io/ahd-podcast-feed/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
     <item>
       <title>Episode 1</title>
-      <description></description>
-      <enclosure url="https://drive.google.com/file/d/1f8lfcGAPgwtcuJqVRt7xFtHYORispYsY/view?usp=sharing" type="audio/mpeg" />
-      <guid>Unique-Identifier-for-Episode-1</guid>
-      <pubDate>Wed, 19 Dec 2024 12:00:00 GMT</pubDate>
+      <description>Description of Episode 1</description>
+      <enclosure url="https://drive.google.com/uc?export=download&id=1f8lfcGAPgwtcuJqVRt7xFtHYORispYsY" type="audio/mpeg" length="12345678" /> <!-- Replace with a direct MP3 link and file size in bytes -->
+      <guid isPermaLink="false">https://drive.google.com/uc?export=download&id=1f8lfcGAPgwtcuJqVRt7xFtHYORispYsY</guid> <!-- Use a valid URL or unique identifier -->
+      <pubDate>Thu, 19 Dec 2024 12:00:00 GMT</pubDate> <!-- Corrected the day to Thursday -->
     </item>
-    <!-- Repeat <item> blocks for more episodes -->
   </channel>
 </rss>
